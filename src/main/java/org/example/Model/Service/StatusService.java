@@ -8,7 +8,7 @@ import java.util.List;
 
 public class StatusService {
 
-    private StatusDao statusDao;
+    private final StatusDao statusDao;
 
     public StatusService(StatusDao statusDao) {
         this.statusDao = statusDao;
@@ -31,7 +31,6 @@ public class StatusService {
         Status status = new Status();
         status.setName("High");
         createStatus(status);
-
     }
 
 }

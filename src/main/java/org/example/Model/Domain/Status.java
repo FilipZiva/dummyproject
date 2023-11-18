@@ -12,19 +12,19 @@ import javax.persistence.*;
 @Builder
 
 @Entity
-@Table(name = "Status")
+@Table(name = "status")
 public class Status {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "Version", nullable = false)
+    @Column(name = "version", nullable = false)
     @Version
     @GeneratedValue
     private Integer version;
 
-    @Column(name = "Name", nullable = false)
+    @Column(name = "name", nullable = false)
     private String name;
 
 

@@ -37,7 +37,7 @@ public class GenericDao<T> {
 
     public List<T> findAll() {
         try (Session session = sessionFactory.openSession()) {
-            Query<T> query = session.createQuery("FROM Status", type);
+            Query<T> query = session.createQuery("FROM "+ type, type);
             return query.list();
         }
     }

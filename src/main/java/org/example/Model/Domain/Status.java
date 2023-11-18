@@ -4,9 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
-import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
@@ -14,20 +12,20 @@ import java.time.LocalDate;
 @Builder
 
 @Entity
-@Table(name = "status")
+@Table(name = "Status")
 public class Status {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
+    private Long id;
 
-    @Column(name = "version", nullable = false)
+    @Column(name = "Version", nullable = false)
     @Version
     @GeneratedValue
     private Integer version;
 
-    @Column(name = "name", nullable = false)
-    private String Name;
+    @Column(name = "Name", nullable = false)
+    private String name;
 
 
 }

@@ -18,11 +18,11 @@ public class Main {
         SessionFactory connection = HibernateConnection.getSessionFactory();
         StatusDao statusDao = new StatusDao(connection);
         statusService = new StatusService(statusDao);
-        InitClasses();
+        initClasses();
         logger.log(Level.ERROR, statusService.getAllStatuses());
     }
 
-    public static void InitClasses() {
+    public static void initClasses() {
         statusService.initStatus();
     }
 }

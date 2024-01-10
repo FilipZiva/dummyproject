@@ -20,6 +20,7 @@ public class Main {
         statusService = new StatusService(statusDao);
         initClasses();
         logger.log(Level.ERROR, statusService.getAllStatuses());
+        logger.log(Level.ERROR, statusService.getAllStatuses());
     }
 
     public static void initClasses() {

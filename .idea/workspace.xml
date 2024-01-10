@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe42bf4a-bcb4-4d4b-9273-44a2bb755447" name="Changes" comment="commiting dummyproject">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/Domain/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Domain/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/Service/StatusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Service/StatusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +187,7 @@
       <workItem from="1700316046474" duration="12000" />
       <workItem from="1700316102716" duration="889000" />
       <workItem from="1700325068429" duration="146000" />
+      <workItem from="1704900303389" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="commiting dummyproject">
       <created>1700316222867</created>
